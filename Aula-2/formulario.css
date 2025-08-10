@@ -1,0 +1,103 @@
+/* puxa todos os elementos pro canto */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Mudei o estilo da letra, mudei a cor, coloquei o titulo pra frente */
+#titulo {
+    font-family: sans-serif;
+    color: #380b61;
+    margin-left: 10%;
+}
+
+/* Mudei o estilo da letra, mudei a cor, coloquei o subtitulo pra frente mais não vi divereça */
+#subtilo {
+    font-family: sans-serif;
+    color: #380b61;
+    margin-left: 10%;
+}
+/*Tirei linha/bordas que estava na tela*/
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: #f0f8ff;      /*mudei o fundo de cor*/
+    font-family: sans-serif;          /*mudei o tema da letra*/
+    font-size: 1em;                   /*dei um mini zumm*/
+    color: #59429d;                 /* mudei a cor da letra ex:nome,sobre nome*/
+    margin-left: 36%;                 /*coloquei tudo pra frente*/
+    margin-top: 2%;                   /*coloquei tudo um pouco pra baixo*/
+    justify-content: center;          /*não entendi muito bem*/
+}
+
+input,  select, textarea, button {
+    border-radius: 5px;               /*adicionei bordas em tudos o botãos*/
+}
+
+.campo {
+    margin-bottom: 1em;                /*separei todos os itens que estava com botão*/
+}
+
+.campo label {
+    margin-top: 0.2em;                 /*da um pequeno espaço entre os itens*/
+    color: #59429d;                  /*uma cor minima nem eu vi diferença*/
+    display: block;                    /*colocou tudo um embaixo do outro*/
+}
+
+fieldset.grupo .campo {
+    float: left;                       /*subiu o email para frente do nome*/ 
+    margin-right: 1em;                 /*deu um pequeno espaço entre eles*/
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo selecte {
+    padding: 0.2em;                    /*coisa besta de tamanho da cx de texto para digitar*/
+    border: 1px solid #59429d;       /*pinta a bordar da cx de texto*/
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);         /*adicionou uma leve sombra na cx de texto*/
+    display: block;         /*esse não percebi oque mudou*/
+}
+.campo textarea{
+    width: 440px !important;           /*largura*/
+    height: 150px;          /*altura*/
+}
+
+.campo select option {
+    padding-right: 1em;         /*não sei oque mudou*/
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color: #E0E0f8;          /*muda a cor da cx de texto ao digitar*/
+}
+
+.botao {
+    font-size: 1.2em;                   /* Ajusta o tamanho da fonte do botão para 1.2 vezes o tamanho padrão */
+    background: #59429d;                /* Define a cor de fundo do botão (um tom de roxo escuro) */
+    border: 0;                         /* Remove a borda padrão do botão */
+    margin-bottom: 1em;                /* Espaço embaixo do botão de 1em (unidade relativa ao tamanho da fonte) */
+    color: #ffffff;                    /* Define a cor do texto do botão para branco */
+    padding: 0.2em 0.6em;              /* Espaçamento interno do botão: 0.2em em cima/baixo e 0.6em nas laterais */
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2); /* Adiciona uma sombra suave ao redor do botão para dar profundidade */
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5); /* Adiciona uma sombra no texto para destaque */
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+} 
+
+.botao:hover {           /* Aplica estilos quando o mouse está sobre o botão */
+    background: #ccbff7;             /* Muda a cor de fundo para um roxo claro */
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);          /* Cria uma sombra interna para parecer que o botão foi pressionado */
+    text-shadow: none;          /* Remove a sombra do texto para deixar mais limpo */
+}
+
+#check {
+    display: inline-block; /* Permite ficar na mesma linha que outros elementos, mas ainda aceitar largura, altura e margens */
+}
+
+
+
+
+
+
