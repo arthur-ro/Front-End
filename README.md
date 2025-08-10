@@ -16,3 +16,49 @@ Formulário simples criado em **HTML** e **CSS** para praticar conceitos de form
 ---
 
 ## 🗂 Estrutura do repositório (exemplo)
+```
+Full-Stack/
+└─ Aula-2/
+   ├─ formulario.html
+   ├─ formulario.css
+   └─ assets/ (opcional: imagens, etc.)
+```
+
+---
+
+## 🚀 Como usar (local)
+1. Clone o repositório ou baixe os arquivos.
+2. Abra `Aula-2/formulario.html` no navegador (duplo-clique) ou use uma extensão "Live Server" do VSCode para visualização ao vivo.
+3. Teste a validação do campo email e responsividade redimensionando a janela.
+
+---
+
+## ✍️ Exemplo rápido: deixar "Júnior" selecionado por padrão
+No HTML (radio de senioridade):
+```html
+<input type="radio" name="senioridade" id="junior" value="junior" checked>
+<label for="junior">Júnior</label>
+```
+
+---
+
+## 🛠️ Melhorias sugeridas
+- Validação avançada com JavaScript
+- Submissão para um backend (API)
+- Melhorar acessibilidade (labels, aria-*)
+- Tornar o layout ainda mais responsivo para celulares
+
+---
+
+## 🤝 Contribuições
+Pull requests são bem-vindos! Se for contribuir, crie uma branch, faça as alterações e abra um PR explicando o que você mudou.
+
+---
+
+## 📜 Licença
+MIT — sinta-se livre para usar e modificar.
+
+---
+
+## 👨‍💻 Autor
+**Arthur Caetano** — https://github.com/arthur-ro
