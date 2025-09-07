@@ -115,4 +115,28 @@ body {
     color: var(--branco-principal);
 }
 
+/*desafio*/
 
+.rodape {
+    text-align: center;
+}
+
+.lista__link a {
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.lista__link {
+    display: inline;
+    margin: 0.5em;
+}
+
+.rodape__logo {
+    margin: 5em 0 3em;
+}
+
+.rodape__texto {
+    margin: 2em 0 2em;
+    font-size: 14px;
+    color: var(--cinza-secundario);
+}
