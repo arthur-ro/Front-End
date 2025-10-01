@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Aula-13/icon.02.png" type="image/x-icon">
+    <title>Mídeas em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tenta abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="./peq.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="./medio.png" type="image/png">
+    <img src="grande.png" alt="Imagem fléxivel">
+</picture>
+
+<h1>Reproduzindo audio</h1>
+<audio preload="metadata"autoplay controls loop>
+    <source src="phonk.mp3" type="audio/mpeg">
+    <source src="phonk.ogg" type="audio/ogg">
+    <source src="phonk.mp3" type="audio/wav">
+    <p>Infelizmente seu navegador não consegue reproduzir esse audio <a href="phonk.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+</audio>
+</body>
+</html>
