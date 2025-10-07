@@ -5,23 +5,24 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #05668D, #427AA1);
+    background-image: linear-gradient(to right, #05668D, #02C39A, #0b0a0a);
 }
 
 
+
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: #F0F3BD;
     border-radius: 10px;
-    box-shadow: 5xp 5px 15px rgba(0, 0, 0, 0.64);
+    box-shadow: 5px 5px 15px rgba(2, 40, 55, 0.49);
     width: 600px;
     padding: 10px;
     margin: auto;
 }
 
 h1 {
-    color: #679436;
+    color: #05668D;
     text-align: center;
-    text-shadow: #679436;
+    text-shadow: 1px 1px 2px rgba(0, 168, 151, 0.851);
 }
 
 h2 {
